@@ -33,8 +33,8 @@ public class Game {
     }
 
     public static void main(String[] args) {
-        System.out.println(new Game("13579", "24680").play());
-        System.out.println(new Game("12345", "67890").play());
-        System.out.println(new Game("13029", "42685").play());
+        System.out.println("13579, 24680: " + new Game("13579", "24680").play());
+        System.out.println("12345, 67890: " + new Game("12345", "67890").play());
+        System.out.println("13029, 42685: " + new Game("13029", "42685").play());
     }
 }
